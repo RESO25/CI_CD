@@ -23,9 +23,9 @@ header{
     
 }
 
-#calendario{
+.card{
     display:block;
-    margin:auto;
+    margin: 20px auto;
     width:fit-content;
     padding:20px;
     box-sizing: border-box;
