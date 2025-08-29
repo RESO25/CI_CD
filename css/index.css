@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    height: 100%;
+    background-color: rgb(225, 225, 225);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    border-bottom: solid 3px black;
+    /* min-height: 75px; */
+    display:flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding:10px;
+    background-color: rgb(250, 250, 250);
+    margin-bottom:20px;
+    
+    & h1{
+        margin: 0;
+        /* font-family: "Comic Sans MS", "Comic Sans", cursive; */
+    }
+
+    
+}
+
+#calendario{
+    display:block;
+    margin:auto;
+    width:fit-content;
+    padding:20px;
+    box-sizing: border-box;
+    border: solid 3px rgb(0,0,0);
+    border-radius: 20px;
+    background-color:rgb(250,250,250);
+    box-shadow: black 5px 5px 0;
+
+    & * {
+        margin:0;
+        padding:0;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        display:block;
+        margin:auto;
+        width:fit-content;
+    }
+
+    & h3 {
+        /* font-family: "Comic Sans MS", "Comic Sans", cursive; */
+        font-size:15pt;
+        /* padding:0; */
+        /* margin:0; */
+        /* display:inline-block; */
+    }
+
+
+}
+
+#devs{
+    margin: 50px auto;
+    width:1260px;
+    
+    & p {
+        margin:0;
+    }
+}
+
+
+
